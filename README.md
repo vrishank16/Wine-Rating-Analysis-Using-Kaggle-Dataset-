@@ -33,6 +33,8 @@ This step forms the part of your written report which you prepare as a Word docu
 
 ### Our Findings
 
+The dataset, detailed report and jupyter notebook have been attached. The following sections are exercepts from the final report.
+
 #### Problem Statement
 The main business problem is, “How can we optimise the wine selection process and customer’s wine buying experience, in order to curate an inventory that would ultimately lead to increased customer satisfaction and revenue of this particular winery?”.
 Today one of the key challenges that wineries face is inventory curation and understanding which wines must be stocked (Maurel et al. 2019). This is a critical decision since customer satisfaction and revenue depend heavily on this. Overstocking wine can cause financial strains and storage problems. Understocking wines and wine unavailability can cause customer dissatisfaction and lose revenue in this regard.
