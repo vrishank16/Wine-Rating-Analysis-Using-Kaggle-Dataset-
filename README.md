@@ -31,11 +31,13 @@ This step forms the part of your written report which you prepare as a Word docu
 
 6. Develop a communication document (business report) with your findings for your stakeholder/s. You need to report your findings in easy to understand and visually supported way - this IS your report which should be prepared using business report style.
 
-### Our Findings
+## Our Findings
 
-The dataset, detailed report and jupyter notebook have been attached. The following sections are exercepts from the final report.
+The dataset used in this project can be found here: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-05-28
 
-#### Problem Statement
+The detailed report and jupyter notebook have been attached. The following sections are exercepts from the final report.
+
+### Problem Statement
 The main business problem is, “How can we optimise the wine selection process and customer’s wine buying experience, in order to curate an inventory that would ultimately lead to increased customer satisfaction and revenue of this particular winery?”.
 Today one of the key challenges that wineries face is inventory curation and understanding which wines must be stocked (Maurel et al. 2019). This is a critical decision since customer satisfaction and revenue depend heavily on this. Overstocking wine can cause financial strains and storage problems. Understocking wines and wine unavailability can cause customer dissatisfaction and lose revenue in this regard.
 Furthermore, customers have a variety of tastes (Navarro, Pedraja-Inglesias and Marta 2010)
@@ -46,7 +48,7 @@ As mentioned above, predicting wine prices accurately could benefit wineries and
 Sub-Problem 2: Classification Model: “How can we classify wines into ‘value picks’ and ‘premium choices’ for our inventory, to cater to our customers' diverse preferences and budgets?”
 Since customers have different preferences and budgets, this would help wineries to curate their inventories in an efficient manner and help customers and even employees to easily identify which wine varieties to be suggested must faster to customers based on their budgets. This would also save time when providing recommendations and also enhance customer experience. For this particular problem, we have made an assumption that wines priced above $200.00 is considered as premium picks and wines below $200 as value picks.
 
-#### Findings and Conclusions
+### Findings and Conclusions
 Through our intensive analysis of wine data, we conducted regression analysis to predict wine prices and employed a logistic regression model to classify wines into "Value Picks" and "Premium Picks." Our results and findings gave us valuable insights into the wine industry based on which the findings offer valuable insights for the business in the wine industry.
 Regarding our regression analysis, Model 2 was more accurate than Model 1. It had a lower MSE and MAE, indicating a superior ability to predict wine prices. Moreover, the higher R-squared (R2) value also showed that Model 2 explains a greater proportion of price variance.
 Secondly, our logistic regression model successfully classified wines into "Value Picks" and "Premium Picks" based on various attributes. This classification can significantly enhance our inventory curation, ensuring that customers have access to wines that align with their preferences and budget constraints.
